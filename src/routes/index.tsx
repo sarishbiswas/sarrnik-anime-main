@@ -11,22 +11,6 @@ import { Toaster } from "@/components/ui/sonner";
 import { demonSlayer, naruto, onePiece, misc, cardsPosters } from "@/data/products";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Sarnik Anime — Premium Anime Figurines" },
-      {
-        name: "description",
-        content:
-          "Sarnik Anime: a hand-curated showcase of premium anime figurines from Demon Slayer, One Piece, Naruto and more.",
-      },
-      { property: "og:title", content: "Sarnik Anime — Premium Anime Figurines" },
-      {
-        property: "og:description",
-        content:
-          "Hand-curated premium anime figurines. Showcase your fandom — built for true collectors.",
-      },
-    ],
-  }),
   component: Index,
 });
 
